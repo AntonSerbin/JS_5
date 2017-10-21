@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_5</title>
+</head>
+<body>
+	<p><b>Задание 1.</b> Вычитайте строку из input. Высчитайте ее длину. Выведите результат.</p>
+	<input type="text" id="task1String" placeholder="Enter any string"> 
+	<button onclick="lenghtTask1()">Length</button>
+	<p id="resultTask1">Length of the string: </p>
+<!-- end of the task1 -->
+
+<p><b>Задание 2.</b> Создайте массив, который содержит имена изображений в определенной папке. Запустите цикл по массиву и выведите все изображения на страницу. Подсказка, для вывода изображения используйте тег <img src=”xxxx”> где xxx – путь к файлу.</p>
+
+<button  onclick="addPicturesTask2()">Indicate/Hide pics</button> 
+<p id="hintArrayTask2"> Array = </p>
+<div id="pictsTask2"></div>
+
+<!-- end of the task2 -->
+
+<p><b>Задание 3.</b> Пользователь вводит URL адрес в input в формате http или https. Выведите только имя домена без префиксов http://, https://. </p>
+<input type="text" id="task3String" placeholder="Enter web address"> 
+<button onclick="deletePartOfStringTask3()">OK</button>
+<p id="resultTask3"> Result = </p>
+
+<!-- end of the tas3 -->
+
+
+<p><b>Задание 4.</b> Пользователь может ввести адрес сайта в формате http://site.ua, https://site.ua, http://www.site.ua, https://www.site.ua или site.ua. Ваша задача используя поиск в подстроке вывести site в виде: site.ua.</p>
+<input type="text" id="task4String" placeholder="Enter web address"> 
+<button onclick="deletePartOfStringTask4()">OK</button>
+<p id="resultTask4"> Result = </p>
+
+<!-- end of the task4 -->
+
+<p><b>Задание 5.</b> Пользователь заполняет форму состоящую из фамилии, имени пароля и email. Используя приведенные методы выполните обработку формы состоящую из удаления пробелов до и после введённых слов, пароль не должен быть меньше 5 символов, email должен содержать один символ @ и не содержать пробелов. Если форма заполнена корректно, возвращать true.</p>
+<input type="text" id="task5FirstName" placeholder="Enter first name"> 
+<input type="text" id="task5SeconName" placeholder="Enter second name"> 
+<input type="password" id="task5Password" placeholder="Enter password"> 
+<input type="text" id="task5EMail" placeholder="Enter youe e-mail"> 
+<button onclick="task5()">OK</button>
+<p id="resultTask5"> Data: </p>
+<p id="resultTask5final"> Result = </p>
+
+<!-- end of the task5 -->
+
+<p><b>Задание 6.</b> Пользователь вводит символ, выведите его код. --></p>
+<input type="text" id="task6Char" placeholder="Enter char">
+<button onclick="task6()">OK</button>
+<p id="resultTask6"> Data: </p>
+
+	<script src="script5.js"></script>
+</body>
+</html>
